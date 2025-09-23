@@ -7,4 +7,5 @@
 - [Структура данных WeakSet в JS.](./DOC/WeakSet.md)
 
 [Примеры.](./Examples)
+
 [Задачи.](./Task)

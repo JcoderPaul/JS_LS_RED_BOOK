@@ -9,7 +9,7 @@ class Character {
                 this.#inventory.push(item);
         }
 
-        recieveDamage(damage) {
+        receiveDamage(damage) {
                 this.#health -= damage;
         }
         
@@ -17,7 +17,7 @@ class Character {
         Но тут мы нарушаем принцип единой ответственности, т.к. 
         персонаж не должен отвечать за то, где он будет храниться 
         (как туда помещаться и извлекаться). И тем более так грубо
-        к единственной БД (а если нам нужно его зранить в MongoDB).
+        к единственной БД (а если нам нужно его хранить в MongoDB).
         */
         saveCharacter() {
                 localStorage.setItem('char', this);

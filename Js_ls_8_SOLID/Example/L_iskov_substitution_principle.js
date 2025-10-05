@@ -23,7 +23,7 @@ class Admin extends User{
 
 /* logRole(new Admin()); - TypeError: user.getRole(...).toUpperCase is not a function */
 
-/* И тогда либо через протопип */
+/* И тогда либо через прототип */
 Admin.prototype.getRole = function() {
     return this.role.join(',');
 }
@@ -31,7 +31,7 @@ Admin.prototype.getRole = function() {
 logRole(new Admin());
 
 /* 
-Либо переопредление метода: 
+Либо переопределение метода:
 
 class Admin extends User{
         #role = ['user', 'admin']; 

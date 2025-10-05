@@ -11,7 +11,7 @@ class Crystal extends Treasure {}
 появления нового 'инвентаря', нам придется переписывать
 реализацию класса (метода)
 */
-class Inventary {
+class Inventory {
   #score = 0;
   pick(treasure) {
     if (treasure instanceof Coin) {
@@ -25,7 +25,7 @@ class Inventary {
 
 /* 
 Новый инвентарь, но для того, чтобы учесть его в наборе 
-всего инвентаря персонажа, нужно переписать Inventary
+всего инвентаря персонажа, нужно переписать Inventory
 */
 class Spice extends Treasure {
 
@@ -34,7 +34,7 @@ class Spice extends Treasure {
 /* 
 Что-то типа: 
 
-class Inventary {
+class Inventory {
   #score = 0;
   pick(treasure) {
     if (treasure instanceof Coin) {

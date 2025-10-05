@@ -10,7 +10,7 @@ class badDB {
 
 class BadToDoList {
   items = [1, 2, 3];
-  db = new badDB(); // Жесткая свыязка с конкретной БД
+  db = new badDB(); // Жесткая связка с конкретной БД
 
   saveToDb() {
     this.db.save(this.items);

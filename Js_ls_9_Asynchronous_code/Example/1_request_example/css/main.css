@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box; 
+    background-color: #ffffff; 
+    text-align: center               
+}
+
+.logo {
+    width: 150px; 
+    height: 150px;
+}
+

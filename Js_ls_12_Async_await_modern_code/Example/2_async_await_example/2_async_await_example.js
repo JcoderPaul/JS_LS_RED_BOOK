@@ -1,10 +1,10 @@
 'use strict';
 
-async function getProductAsnc() {
+async function getProductAsync() {
         const productsResponse = await fetch('https://dummyjson.com/products');
-        const productsRsp = await productsResponse.json(); // Получаем ответ и парсим (ответ содерэим массив 'products')
+        const productsRsp = await productsResponse.json(); // Получаем ответ и парсим (ответ содержит массив 'products')
         const prdArr = productsRsp.products; // Извлекаем массив
-        console.log(prdArr); // (30) [{…}, {…}, …]
+        console.log(prdArr); // (30)[{…}, {…}, …]
 
         /* 
         Можно 3-и верхних строки заменить на деструктуризацию, 
@@ -28,8 +28,8 @@ async function getProductAsnc() {
         */
         
         const product = await productResponse.json();
-        console.log(product); // {id: 1, title: 'Essence Mascara Lash Princess', …}
+        console.log(product); // {id: 1, title: 'Essence Mascara Lash Princess',…}
 }
 
-getProductAsnc(); 
+getProductAsync();
 console.log('End async/await'); // End async/await

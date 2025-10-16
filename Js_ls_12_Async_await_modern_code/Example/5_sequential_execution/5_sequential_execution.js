@@ -10,7 +10,7 @@ const asyncArrowFunction = async () => {
   }
 };
 
-/* Вариант последовательного вызована на основе знаний работы Event Loop */
+/* Вариант последовательного вызова на основе знаний работы Event Loop */
 console.log("1");
 asyncArrowFunction()
   .then((vol) => {

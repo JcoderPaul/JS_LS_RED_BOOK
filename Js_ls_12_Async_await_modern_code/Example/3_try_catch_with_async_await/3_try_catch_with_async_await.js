@@ -1,6 +1,6 @@
 'use strict';
 
-async function getProductAsnc() {
+async function getProductAsync() {
   try {
     const productsResponse = await fetch("https://errorpage.com/products"); // Внесем ошибку
     const productsRsp = await productsResponse.json();
@@ -19,5 +19,5 @@ async function getProductAsnc() {
   }
 }
 
-getProductAsnc(); 
+getProductAsync();
 console.log('End async/await'); // End async/await

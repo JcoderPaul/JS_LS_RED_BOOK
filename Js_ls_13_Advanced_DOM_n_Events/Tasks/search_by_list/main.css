@@ -1,0 +1,39 @@
+body {
+        background-color: white;
+        text-align: center;
+        color: white;
+}
+
+.button {
+        background: rgb(63, 63, 63);
+        color: white;
+        border: none;
+        padding: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;
+}
+
+.wrapper {
+        display: flex;
+        color: rgb(0, 0, 0);
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        margin-bottom: 20px;
+        padding: 20px;
+        border: 1px solid #747474;
+}
+
+/* Добавляемые динамически блоки div */
+.wrapper > div {
+        background: #7b7b7b;
+        padding: 20px;
+        border: 1px solid #747474;
+        border-radius: 10px;
+}
+
+.wrapper > div.yellow {
+        background: yellow;
+        color: #333;
+}

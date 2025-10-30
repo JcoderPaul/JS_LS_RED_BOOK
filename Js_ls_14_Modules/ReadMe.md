@@ -1,9 +1,9 @@
 Модульность в JavaScript:
 
-[Модульность в JavaScript](./DOC/JS_Modules.md)
-[Процесс сборки модулей в JavaScript](./DOC/ModulesAssembly.md)
-[Rollup - бандлер для сборки модулей](./DOC/RollupBundler.md)
-[Использование `await` на верхнем уровне в ES Modules](./DOC/Top_level_await.md)
+- [Модульность в JavaScript](./DOC/JS_Modules.md)
+- [Процесс сборки модулей в JavaScript](./DOC/ModulesAssembly.md)
+- [Rollup - бандлер для сборки модулей](./DOC/RollupBundler.md)
+- [Использование `await` на верхнем уровне в ES Modules](./DOC/Top_level_await.md)
 
 Системы модулей в JS:
 - [ES Modules (ESM)](./DOC/ModularityCreating/ES_Modules.md)

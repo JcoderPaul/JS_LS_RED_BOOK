@@ -1,0 +1,17 @@
+Расширенный справочник по JS.
+
+- [Map и Set в JavaScript.](./Js_ls_1_Maps_Sets/ReadMe.md)
+- [Объект Math.](./Js_ls_2_Math)
+- [Работа с датой и временем (объект Date).](./Js_ls_3_Date_n_Time)
+- [Таймеры (еще раз об Async/Await/setInterval/setTimeout/Promise).](./Js_ls_4_Timers)
+- [OOP в JavaScript.](./Js_ls_5_OOP)
+- [Понятие класса в JS.](./Js_ls_6_Classes)
+- [Принципы OOP.](./Js_ls_7_OOP_principles_in_classes)
+- [Принципы SOLID.](./Js_ls_8_SOLID)
+- [Асинхронный код в JS.](./Js_ls_9_Asynchronous_code)
+- [Объект Promise (реализация, цепочка promises).](./Js_ls_10_Promises)
+- [Event Loop.](./Js_ls_11_Event_Loop)
+- ['Современный' подход к работе с Async/Await](./Js_ls_12_Async_await_modern_code)
+- [DOM, жизненный цикл и обработка событий.](./Js_ls_13_Advanced_DOM_n_Events)
+- [Модульность в JavaScript](./Js_ls_14_Modules)
+- [NPM (только теория)](./Js_ls_15_NPM)
